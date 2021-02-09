@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:new_cool_flutter_app/progress_bar.dart';
 
 void main() {
+  // debugRepaintRainbowEnabled = true;
   runApp(MyApp());
 }
 
@@ -41,7 +42,7 @@ class _MyHomePageState extends State<MyHomePage> {
           barColor: Colors.deepPurple,
           thumbColor: Colors.deepOrangeAccent,
           thumbSize: 20,
-        )
+        ),
       ),
     );
   }
